@@ -1,273 +1,196 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Mood</title>
-    <!--style-->
-    <link rel="stylesheet" href="style.css">
-    <!--Fontawesome--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="">
-    <!--favicon-->
-    <link rel="shortcut icon" href="imag/logo name2 .png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="imag/لوجو.png">
+    <link rel="stylesheet" href="stylee.css">
+    <title>Digital Qalam</title>
 </head>
-
 <body>
-    <!--Header Start-->
-    <header id="header">
-        <nav class="navbar">
-            <a href="#home"><img src="./imag/logo pag.png" alt="Coffee Mood" class="logo"></a>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!--Header End-->
+    <!-- Start Header -->
+    <header>
+    <h1><i class="fa-solid fa-pen-nib"></i> Digital Qalam</h1>
+    <nav>
+    <a href="">الرئيسية</a>
+    <a href="register.html" target="_blank">تسجيل الدخول</a>
+    <a href="dashboard.html" target="_blank">رفع كتاب</a>
+    </nav>
+  </header>
+    <!-- End Header -->
+      <section class="hero">
+    <h2>مرحبًا بكم في <strong>Digital Qalam</strong></h2>
+    <p>منصة فريق <strong>Ur Novels</strong> للكتب روايات للقراءة والإلكترونية 📚</p>
+  </section>
 
-    <!--main start-->
-    <main>
-        <!--Home start-->
-        <section id="home">
-            <div class="container">
-                <div class="home-content">
-                    <div class="content-text">
-                        <h3>The perfect coffee experience for every mood.</h3>
-                        <h1>TIME TO DISCOVER COFFEE MOOD</h1>
-                        <P>We care about quality, sustainability, and ethical sourcing — because every cup should make a difference.</P>
-                        <a href="#" class="btn">Explore Our Coffees <i class="fa-solid fa-cart-shopping"></i></a>
-                    </div>
-                    <img src="./imag/logo name.png" alt="Coffee Home">
-
-                </div>
-            </div>
-        </section>
-        <!--Home end-->
-        <!--About start-->
-        <section id="about">
-            <div class="container">
-                <div class="row">
-                 <img src="imag/demi-deherrera-L-sm1B4L1Ns-unsplash.jpg" alt="coffee">
-                 <div class="about-content">
-                     <h2><span class="text-primary"> Coffee Mood </span> About Info </h2>
-                 <p>Coffee Mood is more than just coffee. We bring passion, warmth, and comfort in every cup. 
-                 Our goal is to create a space where people connect, relax, and enjoy unforgettable flavors made with love.
-                </p>
-                <div class="item">
-                    <h3> A Cozy Escape</h3>
-                    <p>Welcome to our Café — a cozy space made for you. Whether you're working, catching up with friends,
-                         or taking a quiet break our warm ambiance and freshly brewed coffee make every moment special.
-                    </p>
-                </div>
-                <div class="item">
-                <h3>Quality & Sustainability</h3>
-                <p>Our café blends exceptional quality with a deep commitment to sustainability.
-                 Every cup is crafted to delight your senses while caring for the world we share.</p>
-                </div>
-                 </div>
-                </div>
-            </div>
-        </section>
-        <!--About End-->
-        <!--Menu Start-->
-        <section id="menu">
-            <div class="container">
-                <div class="heading">
-                    <span class="text-primary">Set Menu</span>
-                    <h2>Our Popular Menu</h2>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <!--Item 1-->
-                        <div class="item">
-                            <img src="imag/Untitled.png" alt="Cappuccino">
-                            <div class="details">
-                                <h3>Cappuccino</h3>
-                                <p>A balanced mix of espresso, steamed milk, and creamy foam, topped with cocoa or cinnamon.</p>
-                            </div>
-                            <div class="price">
-                                <p class="text-primary">$3.50</p>
-                            </div>
-                        </div>
-                        <!--Item 2-->
-                        <div class="item">
-                            <img src="imag/Americano.jpg" alt="Americano">
-                            <div class="details">
-                                <h3>Americano</h3>
-                                <p>Smooth espresso blended with hot water, creating a lighter taste while keeping the rich coffee aroma.</p>
-                            </div>
-                            <div class="price">
-                                <p class="text-primary">$3.00</p>
-                            </div>
-                        </div>
-                        <!--Item 3-->
-                        <div class="item">
-                            <img src="imag/Espresso.jpg" alt="Espresso">
-                            <div class="details">
-                                <h3>Espresso</h3>
-                                <p>A rich, bold coffee served in a small cup. Perfect for a quick energy boost with intense flavor.</p>
-                            </div>
-                            <div class="price">
-                                <p class="text-primary">$2.50</p>
-                            </div>
-                        </div>
-                        <!--Item 4-->
-                        <div class="item">
-                            <img src="imag/Turkish Coffee.jpg" alt="Turkish Coffee">
-                            <div class="details">
-                                <h3>Turkish Coffee</h3>
-                                <p>Traditional finely ground coffee, brewed slowly for a strong and aromatic flavor experience.</p>
-                            </div>
-                            <div class="price">
-                                <p class="text-primary">$2.80</p>
-                            </div>
-                        </div>
-                        <!--Item 5-->
-                        <div class="item">
-                            <img src="imag/Macchiato.jpg" alt="Macchiato">
-                            <div class="details">
-                                <h3>Macchiato</h3>
-                                <p>An espresso “stained” with a small touch of milk, strong in taste but slightly softened.</p>
-                            </div>
-                            <div class="price">
-                                <p class="text-primary">$3.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <!--Item 6-->
-                        <div class="item">
-                            <img src="imag/Mocha.jpg" alt="Mocha">
-                            <div class="details">
-                                <h3>Mocha</h3>
-                                <p>A delicious latte with chocolate, mixing the boldness of coffee with the sweetness of cocoa.</p>
-                            </div>
-                            <div class="price">
-                                <p class="text-primary">$4.50</p>
-                            </div>
-                        </div>
-                        <!--Item 7-->
-                        <div class="item">
-                            <img src="imag/Flat White.jpg" alt="Flat White">
-                            <div class="details">
-                                <h3>Flat White</h3>
-                                <p>A creamy coffee with a smooth texture, made with espresso and lightly frothed milk.</p>
-                            </div>
-                            <div class="price">
-                                <p class="text-primary">$3.80</p>
-                            </div>
-                        </div>
-                        <!--Item 8-->
-                        <div class="item">
-                            <img src="imag/Iced Coffee.jpg" alt="Iced Coffee">
-                            <div class="details">
-                                <h3>Iced Coffee</h3>
-                                <p>Freshly brewed coffee served over ice, refreshing and perfect for warm days.</p>
-                            </div>
-                            <div class="price">
-                                <p class="text-primary">$3.5</p>
-                            </div>
-                        </div>
-                        <!--Item 9-->
-                        <div class="item">
-                            <img src="imag/Latte.jpg" alt="Latte">
-                            <div class="details">
-                                <h3>Latte</h3>
-                                <p>Velvety steamed milk combined with a shot of espresso, offering a smooth, mild flavor.</p>
-                            </div>
-                            <div class="price">
-                                <p class="text-primary">$4.00</p>
-                            </div>
-                        </div>
-                        <!--Item 10-->
-                        <div class="item">
-                            <img src="imag/Frappuccino.jpg" alt="Frappuccino">
-                            <div class="details">
-                                <h3>Frappuccino</h3>
-                                <p>A chilled blend of coffee, milk, ice, and flavors, topped with whipped cream.</p>
-                            </div>
-                            <div class="price">
-                                <p class="text-primary">$4.80</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Menu End-->
-
-        <!--Contact Start-->
-        <section id="contact">
-            <div class="container">
-                <div class="heading">
-                    <span class="text-primary">What Happens Here</span>
-                    <h2>Reservation Area </h2>
-                </div>
-                <div class="row">
-                    <div class="map"></div>
-                    <div class="contact-content">
-                        <h3>Book a Table</h3>
-                        <form>
-                            <input type="text"    name="name"       id="name"    placeholder="Your Name">
-                            <input type="email"   name="email"      id="email"   placeholder="Email">
-                            <input type="number"  name="persons"    id="persons"    placeholder="Persons">
-                            <input type="date"  name="date"    id="date">
-                            <input type="time"  name="time"    id="time">
-                            <textarea name="message" id="message" placeholder="Your Message" rows="6"> </textarea>
-                            <button type="submit" class="btn-submit">Book a Table</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Contact End-->
-    </main>
-    <!--main end-->
-
-<!--Footer Start-->
-<footer id="footer">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h3>About Info</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, illum.</p>
-                    <ul>
-                        <li><i class="fa-solid fa-location-dot"></i>Coffee Street, Cairo</li>
-                        <li><i class="fa-solid fa-envelope"></i>Email: <a href="mariam.wazxs20@gmail.com">Maryam Abd El-Aziz</a></li>
-                        <li><i class="fa-solid fa-phone-volume"></i>phone:01234567890</li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h3>Quick links</h3>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#menu">Menu</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h3>Follow Us On</h3>
-                    <ul>
-                        <li><a href="#"><i class="fa-brands fa-facebook"></i>Faecbook</a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i>instagram</a></li>
-                        <li><a href="#"><i class="fa-brands fa-tiktok"></i>TikTok</a></li>
-                    </ul>
-                </div>
-            </div>
+  <!-- Start البحث -->
+  <div class="filters">
+    <input type="text" id="searchInput" placeholder="ابحث عن كتاب أو مؤلف... 🔍">
+    <select id="categorySelect">
+    <option value="">كل الأقسام</option>
+    <option value="روايات">روايات</option>
+    <option value="جريمة">جريمة</option>
+    <option value="رعب">رعب</option>
+    <option value="تاريخ">تاريخ</option>
+    <option value="دينية">دينية</option>
+    </select>
+  </div>
+  <!-- End البحث -->
+    <!-- الكتب -->
+  <section class="books">
+    <div class="books-container" id="booksList">
+        <div class="book-card" data-category="روايات">
+            <img src="imag/أبابيل.png" alt="غلاف كتاب">
+            <h3>أبابيل</h3>
+            <button onclick="window.open('pdf/أبابيل 1 أحمد آل حمدان.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/أبابيل 1 أحمد آل حمدان.pdf" download>
+            <button>تحميل ⬇️</button></a>
         </div>
-
+        <div class="book-card" data-category="روايات">
+            <img src="imag/الجساسة.png" alt="غلاف كتاب">
+            <h3>الجساسة</h3>
+            <button onclick="window.open('pdf/الجساسة 2 أحمد آل حمدان.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/الجساسة 2 أحمد آل حمدان.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+         <div class="book-card" data-category="روايات">
+            <img src="imag/جومانا.png" alt="غلاف كتاب">
+            <h3>جومانا</h3>
+            <button onclick="window.open('pdf/جومانا 3 أحمد آل حمدان.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/جومانا 3 أحمد آل حمدان.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="روايات">
+            <img src="imag/السجيل.png" alt="غلاف كتاب">
+            <h3>السجيل</h3>
+            <button onclick="window.open('pdf/السجيل 4 أحمد آل حمدان.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/السجيل 4 أحمد آل حمدان .pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+         <div class="book-card" data-category="روايات">
+            <img src="imag/بساتين عربستان _ مكت.png" alt="غلاف كتاب">
+            <h3>بساتين عربستان ج١</h3>
+            <button onclick="window.open('pdf/بساتين عربستان ج١.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/بساتين عربستان ج١.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="روايات">
+            <img src="imag/عصبة الشياطين - بسات.png" alt="غلاف كتاب">
+            <h3>عصبة الشياطين ج٢</h3>
+            <button onclick="window.open('pdf/بساتين عربستان ج٢ - عصبة الشياطين.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/بساتين عربستان ج٢ - عصبة الشياطين.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+         <div class="book-card" data-category="روايات">
+            <img src="imag/رياح هجر _ بساتين عر.png" alt="غلاف كتاب">
+            <h3>رياح هجر ج٣</h3>
+            <button onclick="window.open('pdf/بساتين عربستان ج٣ - رياح هجر.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/بساتين عربستان ج٣ - رياح هجر.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="روايات">
+            <img src="imag/العرجاء _ بساتين عرب.png" alt="غلاف كتاب">
+            <h3>العرجاء ج٤</h3>
+            <button onclick="window.open('pdf/بساتين عربستان ج٤ - العرجاء.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/بساتين عربستان ج٤ - العرجاء.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="روايات">
+            <img src="imag/بساتين عربستان - الس.png" alt="غلاف كتاب">
+            <h3>الساحرةالهجينة ج٥</h3>
+            <button onclick="window.open('pdf/بساتين عربستانج٥ الساحرةالهجينة.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/بساتين عربستانج٥ الساحرةالهجينة.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="جريمة">
+            <img src="imag/قضيه ست الحسن.jpg" alt="غلاف كتاب">
+            <h3>قضية ست الحسن ج١</h3>
+            <button onclick="window.open('pdf/قضيه ست الحسن.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/قضيه ست الحسن.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="جريمة">
+            <img src="imag/قضيه لوز مر.jpg" alt="غلاف كتاب">
+            <h3>قضية لوز مر ج٢</h3>
+            <button onclick="window.open('pdf/قضية لوز مر.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/قضية لوز مر.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="جريمة">
+            <img src="imag/قضيه عنب الثعلب.jpg" alt="غلاف كتاب">
+            <h3>قضية عنب الثعلب ج٣</h3>
+            <button onclick="window.open('pdf/قضية عنب الثعلب - ميرنا المهدي.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/قضية عنب الثعلب - ميرنا المهدي.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="جريمة">
+            <img src="imag/قضيه ذيل القط.jpg" alt="غلاف كتاب">
+            <h3>قضية ذيل القط ج٤</h3>
+            <button onclick="window.open('pdf/قضية ذيل القط.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/قضية ذيل القط.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="جريمة">
+            <img src="imag/دليل جدتي لقتل الاوغاد.jpg" alt="غلاف كتاب">
+            <h3>دليل جدتي لقتل الاوغاد</h3>
+            <button onclick="window.open('pdf/دليل_جدتي_لقتل_الأوغاد_ميرنا_المهدي.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/دليل_جدتي_لقتل_الأوغاد_ميرنا_المهدي.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="رعب">
+            <img src="imag/ابتسم فانت ميت.png" alt="غلاف كتاب">
+            <h3>ابتسم فانت ميت</h3>
+            <button onclick="window.open('pdf/ابتسم_فانت_ميت.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/ابتسم_فانت_ميت.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="رعب">
+            <img src="imag/الفيل الازرق.png" alt="غلاف كتاب">
+            <h3>الفيل الازرق</h3>
+            <button onclick="window.open('pdf/الفيل الازرق- احمد مراد.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/الفيل الازرق- احمد مراد.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="دينية">
+            <img src="imag/قصص الانبياء.png" alt="غلاف كتاب">
+            <h3>قصص الانبياء</h3>
+            <button onclick="window.open('pdf/تحميل_كتاب_قصص_الانبياء_للشيخ_الشعراوى.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/تحميل_كتاب_قصص_الانبياء_للشيخ_الشعراوى.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="دينية">
+            <img src="imag/الهجره النبوية.png" alt="غلاف كتاب">
+            <h3>الهجرة النبوية</h3>
+            <button onclick="window.open('pdf/الهجرة النبوية.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/الهجرة النبوية.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="تاريخ">
+            <img src="imag/كتاب الموتي.png" alt="غلاف كتاب">
+            <h3>كتاب الموتي</h3>
+            <button onclick="window.open('pdf/كتاب الموتى.pdf','_blank')">قراءة📖</button>
+            <a href="pdf/كتاب الموتى.pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
+        <div class="book-card" data-category="تاريخ">
+            <img src="imag/مصر الحديثة.png" alt="غلاف كتاب">
+            <h3>مصر الحديثة</h3>
+            <button onclick="window.open('pdf/مصر الحديثة .pdf','_blank')">قراءة📖</button>
+            <a href="pdf/مصر الحديثة .pdf" download>
+            <button>تحميل ⬇️</button></a>
+        </div>
     </div>
-<div class="copyright">
-    <p>&copy;All rights reserved  Mode by <strong><a href="https://www.linkedin.com/in/mariam-mohammed-425821377/">Maryam Abd El-Aziz</a></strong></p>
-</div>
-</footer>
-<!--Footer End-->
+  </section>
+  <!-- الكتب -->
+
+  <footer>
+    © 2025 <span>Trinity Team</span> — جميع الحقوق محفوظة.
+    <p>All rights reserved Mode by @Maryam Abd El-Aziz ,Rana Saber , Basmala Ahmed</p>
+  </footer>
+
+
+  <script src="main.js"></script>
 
 </body>
 </html>

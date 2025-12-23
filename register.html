@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href='https://cdn.boxicons.com/3.0.4/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/3.0.4/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="imag/لوجو.png">
+    <title>Login/Register</title>
+</head>
+
+<body>
+    <!-- Login -->
+    <div class="container">
+        <div class="form-box login">
+            <form action="login" method="post" id="login">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="UserName" required name="UserName">
+                    <i class='bx bx-user'></i>
+
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required name="password" id="password">
+                    <i class='bxr  bx-lock' id="togglePassword"></i> 
+                </div>
+                <div class="forgot-link">
+                    <a href="#">Forgot password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <p>or login with social platforms</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bxl  bx-google'></i></a>
+                    <a href="#"><i class='bxl  bx-facebook-circle'></i></a>
+                    <a href="#"><i class='bxl  bx-instagram'></i></a>
+                    <a href="#"><i class='bxl  bx-linkedin'></i> </a>
+                </div>
+            </form>
+        </div>
+        <!-- End Login -->
+
+        <!--  Start Register -->
+         <div class="form-box register">
+            <form action="register" method="post" id="register">
+                <h1>Registration</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="UserName" required name="UserName">
+                    <i class='bx bx-user'></i>
+
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required name="Email">
+                    <i class='bx  bx-envelope'></i> 
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required name="password" id="register">
+                    <i class='bxr  bx-lock' id="toggleregister"></i> 
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <p>or register with social platforms</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bxl  bx-google'></i></a>
+                    <a href="#"><i class='bxl  bx-facebook-circle'></i></a>
+                    <a href="#"><i class='bxl  bx-instagram'></i></a>
+                    <a href="#"><i class='bxl  bx-linkedin'></i> </a>
+                </div>
+            </form>
+        </div>
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>Hello,Welcome!</h1>
+                <p>Don't have an account?</p>
+                 <button class="btn register-btn">register</button>
+            </div>
+              <div class="toggle-panel toggle-right">
+                <h1>Welcome Back!</h1>
+                <p>Already have an account?</p>
+                 <button class="btn login-btn">Login</button>
+                 <i class="fa-solid fa-right-to-bracket"></i>
+            </div>
+        </div>
+    </div>
+    <!-- End Register -->
+      
+    <script src="login.js"></script>
+
+</body>
+</html> 
